@@ -1,3 +1,5 @@
+package Lesson;
+
 /**
  * Created by tianze
  * 2018/12/12 15:15
@@ -42,7 +44,7 @@ public class Lesson1 {
         return array;
     }
 
-    private static void merge(int[] array, int low, int mid, int high){
+    private static void merge(int[] array, int low, int mid, int high){ //O(nlogn)
         int[] temp = new int[high - low + 1];
 
         int count = 0;
